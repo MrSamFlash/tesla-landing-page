@@ -1,0 +1,14 @@
+{
+  "name": "take-home-test",
+  "version": "1.0.0",
+  "description": "Take-home test for Front-end developers @ Sendcloud",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Sendcloud",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

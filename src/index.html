@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sendcloud Take-home test - Sam Vlas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../converted-data/Car100D.js"></script>
+    <script src="../converted-data/CarP100S.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="hero-section">
+      <header id="header" class="header">
+        <img
+          src="../assets/logo.png"
+          alt="Tesla logo."
+          class="logo"
+          id="logo"
+        />
+      </header>
+      <nav class="links-bar" id="links-bar">
+        <a href="#" class="link"><button>Model S</button></a>
+        <a href="#" class="link"><button>Model X</button></a>
+        <a href="#" class="link"><button>Model 3</button></a>
+        <a href="#" class="link"><button>Roadster</button></a>
+        <a href="#" class="link"><button>Energy</button></a>
+      </nav>
+      <img
+        src="../assets/tesla-promo-pic2x.png"
+        alt="Tesla model S in a mountainous landscape."
+        class="hero-image"
+      />
+    </div>
+
+    <main>
+      <div class="info-text">
+        <h1 class="info-title">Far far away, behind the word mountains...</h1>
+        <p class="info-p">
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia. It is a paradisematic country, in which
+          roasted parts of sentences fly into your mouth.
+        </p>
+      </div>
+
+      <div class="calculator">
+        <h2 class="calc-title">Range per Charge</h2>
+        <img
+          src="../assets/tesla-for-calc.png"
+          alt="Side view of white Tesla car"
+          class="calc-img"
+        />
+
+        <div class="output">
+          <div class="output-car1">
+            <img
+              src="../assets/100d.png"
+              alt="Tesla S 100D logo"
+              class="car-logo"
+            />
+            <div class="text-output car1">798 km</div>
+          </div>
+          <div class="output-car2">
+            <img
+              src="../assets/p100d.png"
+              alt="Tesla S P100D logo"
+              class="car-logo"
+            />
+            <div class="text-output car2">760 km</div>
+          </div>
+        </div>
+
+        <div class="input-forms">
+          <div class="speed-input">
+            <label for="speed" class="input-label">Speed</label><br />
+            <select name="kmh" id="kmh" class="calc-input">
+              <option value="70">70 km/h</option>
+              <option value="80">80 km/h</option>
+              <option value="90">90 km/h</option>
+              <option value="100">100 km/h</option>
+              <option value="110">110 km/h</option>
+              <option value="120">120 km/h</option>
+            </select>
+          </div>
+          <div class="temp-input">
+            <label for="temp" class="input-label">Outside temperature</label
+            ><br />
+            <select name="temp" id="temp" class="calc-input">
+              <option value="-10">-10°</option>
+              <option value="0">0°</option>
+              <option value="10">10°</option>
+              <option value="20">20°</option>
+              <option value="30">30°</option>
+              <option value="40">40°</option>
+            </select>
+          </div>
+          <div class="heater-cooler">
+            <label for="ac" class="input-label">Air conditioning</label><br />
+            <select name="ac" id="ac" class="calc-input">
+              <option value="off">Off</option>
+              <option value="on">On</option>
+            </select>
+          </div>
+          <div class="wheelsize">
+            <label for="wheelsize" class="input-label">Wheel size</label><br />
+            <select name="wheelsize" id="wheelsize" class="calc-input">
+              <option value="19">19"</option>
+              <option value="21">21"</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <p class="disclaimer">
+        The actual amount of range that you experience will vary based on your
+        particular use conditions. Your vehicle range is also dependent on other
+        conditions, such as vehicle configuration, battery age and condition,
+        driving style and operating, environmental and climate conditions. See
+        how some of these particular use conditions may affect your range in our
+        simulation model.
+      </p>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <div class="contact box">
+          <h6 class="footer-title">Contact Us</h6>
+          <ul class="footer-list">
+            <li>+44 345 678 903</li>
+            <li>adobexd@mail.com</li>
+            <li>Find a store</li>
+          </ul>
+        </div>
+        <div class="customer-service box">
+          <h6 class="footer-title">Customer Service</h6>
+          <ul class="footer-list">
+            <li>Contact us</li>
+            <li>Ordering & Payment</li>
+            <li>Shipping</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="information box">
+          <h6 class="footer-title">Information</h6>
+          <ul class="footer-list">
+            <li>About this example</li>
+            <li>Working with us</li>
+            <li>Privacy policy</li>
+            <li>Terms & Conditions</li>
+            <li>Press Inquiries</li>
+          </ul>
+        </div>
+        <div class="email box">
+          <h5>Subscribe to us via email!</h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia
+          </p>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@mail.com"
+            class="email-input"
+          />
+          <button class="subscribe-button">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
