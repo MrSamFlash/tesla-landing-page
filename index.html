@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tesla S product page with a dynamic range calculator, showcasing the endless possibilities and performance of both the Tesla S 100D and Tesla S P100D."
+    />
     <title>Sendcloud Take-home test - Sam Vlas</title>
     <link rel="stylesheet" href="./src/style.css" />
-    <script src="./converted-data/Car100D.js"></script>
-    <script src="./converted-data/CarP100S.js"></script>
+    <script defer src="./converted-data/Car100D.js"></script>
+    <script defer src="./converted-data/CarP100S.js"></script>
     <script defer src="./src/script.js"></script>
   </head>
 
@@ -28,7 +32,7 @@
         <a href="#" class="link"><button>Energy</button></a>
       </nav>
       <img
-        src="../assets/tesla-promo-pic2x.png"
+        src="../assets/tesla-promo-pic.png"
         alt="Tesla model S in a mountainous landscape."
         class="hero-image"
       />
@@ -73,7 +77,7 @@
 
         <div class="input-forms">
           <div class="speed-input">
-            <label for="speed" class="input-label">Speed</label><br />
+            <label for="kmh" class="input-label">Speed</label><br />
             <select name="kmh" id="kmh" class="calc-input">
               <option value="70">70 km/h</option>
               <option value="80">80 km/h</option>
@@ -153,7 +157,7 @@
           </ul>
         </div>
         <div class="email box">
-          <h5>Subscribe to us via email!</h5>
+          <label for="email"><h6>Subscribe to us via email!</h6></label>
           <p>
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia

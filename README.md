@@ -4,7 +4,7 @@ Hello Erick!
 
 `Welcome` to my attempt at this coding test! I had fun creating this, although it wasn't all that easy at some points haha! In this Read-Me, I'm going to guide you through the application and explain how it works. Let's get started!
 
-# Data used
+## Data used
 
 In this project, I converted the provided JSON data to regular JS data in order to use it in my [script.js].
 
@@ -20,7 +20,7 @@ You operate the calculator by simply choosing a value from one of the forms and 
 
 # Extra information
 
-- I've provided a Lighthouse audit from Chrome DevTools to show how efficient the site is and where certain improvements can be made.
+- I've provided multiple Lighthouse audits from Chrome DevTools to show how efficient the site is and where certain improvements have been made. This shows that I take constant improvement and performance into account as well.
 - Additionally, I have toyed with some animations and transitions to make the app a bit more interesting to look at.
 - Finally, I added some Media Queries in my [style.css] to adapt the content to different screens.
 
